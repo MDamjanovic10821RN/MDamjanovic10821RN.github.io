@@ -1,0 +1,180 @@
+.gray-bg{
+    background-color:#F5F5F5;
+}
+
+.baby-blue-bg{
+    background-color:#EAF4F8;
+}
+
+footer{
+    padding-top: 15px;
+    font-size: 85%;
+    background-color:#046C8E;
+    color: white;
+}
+
+body > .container-fluid{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btn-green{
+    background-color: #7AB742;
+    justify-content: center;
+    background-position: center center;
+    color: white;
+}
+
+.info-block{
+    background-image: url('img/info.jpg');
+    color: white;
+    font-weight: bold;
+    background-position: center center;
+    background-size: cover;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.centerall{
+    font-weight: bold;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.domeni {
+    position: relative;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+    padding: 10px;
+  }
+
+.padding-sides{
+    padding-left: 20px;
+}
+
+.info-text{
+    max-width: 60%;
+    font-size:larger;
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.col-sm-3.text-centerp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.card{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-footer{
+    background-color: white;
+}
+
+.card-header{
+    background-color: white;
+}
+
+.ponuda-card-body{
+    background-color: #F5F5F5;
+}
+
+.selected-link{
+    background-color: #B3D69E;
+}
+
+.istaknuto{
+    border: 2px solid #7AB742;
+}
+
+.oiviceno{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 576px) {
+    .card {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+}
+
+.thicc{
+    color: black;
+    font-weight: bold;
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparent-pad {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+}
+
+h1{
+    font-family: Inter, sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+h2{
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+h5{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+h6{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
